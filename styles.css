@@ -1,0 +1,72 @@
+/** Naver CSS overrides **/
+
+/**
+ Must use visibility instead of display as otherwise
+ it thinks that the user has scrolled and tries to load
+ additional feed items repeatedly.
+ **/
+
+.area_hotkeyword {
+  visibility: hidden !important;
+}
+
+#_keywordRank {
+  visibility: hidden !important;
+}
+
+.sub_pack {
+  visibility: hidden !important;  
+}
+
+.z_aside {
+  visibility: hidden !important;
+
+}
+/*unnecessary information bits*/
+#time_square {
+  visibility: hidden !important;
+}
+/*it's an ad*/
+#veta_branding {
+  visibility: hidden !important;  
+}
+/*it's an ad*/
+#veta_top {
+  visibility: hidden !important;
+}
+/*it is better to choose when to read the news*/
+#news_cast {
+  visibility: hidden !important;
+}
+/*being forced with random info is distracting*/
+#themecast {
+  visibility: hidden !important;
+}
+/*being told what to buy is annoying*/
+#shp_cst {
+  visibility: hidden !important;
+}
+
+.column_banner {
+  visibility: hidden !important;  
+}
+
+/**/
+.section_footer {
+  visibility: hidden !important;  
+}
+
+/*related keywords are often distracting*/
+#nx_related_keywords {
+  visibility: hidden !important; 
+}
+
+/*company info is not hidden, as it is informative*/
+.sp_company {
+  visibility: visible !important; 
+}
+
+/*it's an ad*/
+.rb_push {
+  visibility: hidden !important;
+}
